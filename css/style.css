@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.bg{
+    background-image: url('../images/bg_header.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    margin: auto;
+    max-width: 1187px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+header span{
+
+}
