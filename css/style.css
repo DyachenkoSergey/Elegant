@@ -7,6 +7,7 @@
 }
 body{
     background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 .bg{
     background-image: url('../images/bg_header.jpg');
@@ -21,5 +22,14 @@ header{
     justify-content: space-between;
 }
 header span{
-
+    font-size: 16px;
+    color: #fff;
 }
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    color: #fff;
+    margin: 282px 128px 333px 104px;
+    font-weight: 300;
+    letter-spacing: 12px;
+ }
