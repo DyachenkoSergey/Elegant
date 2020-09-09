@@ -25,7 +25,7 @@ header span{
     font-size: 16px;
     color: #fff;
 }
-h1{
+.bg h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
     color: #fff;
@@ -33,3 +33,41 @@ h1{
     font-weight: 300;
     letter-spacing: 12px;
  }
+.who_we_are{
+    background-color: #fff;
+    padding-top: 81px;
+    padding-bottom: 163px;
+}
+.who_we_are div{
+    max-width: 758px;
+    margin: auto;
+    text-align: center;
+}
+.who_we_are h5{
+    font-weight: 600;
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    margin-bottom: 31px;
+}
+.who_we_are h3{
+    text-transform: capitalize;
+    font-size: 44px;
+    color: #a5a8ab;
+    margin-bottom: 82px;
+    font-weight: 600;
+}
+.who_we_are p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #021725;
+    line-height: 32px;
+    margin-bottom: 51px;
+}
+.who_we_are a{
+    border: 1px solid #000;
+    color: #676d73;
+    list-style: none;
+    text-align: center;
+    padding: 25px 46px 21px 48px;
+}
