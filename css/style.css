@@ -43,14 +43,14 @@ header span{
     margin: auto;
     text-align: center;
 }
-.who_we_are h5{
+h5{
     font-weight: 600;
     font-size: 13px;
     color: #d4af37;
     text-transform: uppercase;
     margin-bottom: 31px;
 }
-.who_we_are h3{
+h3{
     text-transform: capitalize;
     font-size: 44px;
     color: #a5a8ab;
@@ -70,4 +70,19 @@ header span{
     list-style: none;
     text-align: center;
     padding: 25px 46px 21px 48px;
+}
+.what_we_do{
+    text-align: center;
+    padding-bottom: 161px;
+}
+.grid_img{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.grid_img img{
+  width: 24.7%;
+    margin: 2px;
 }
