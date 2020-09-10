@@ -14,10 +14,11 @@ body{
     background-image: url('../images/bg_header.jpg');
     background-size: cover;
     height: 100vh;
+    text-align: center;
 }
 header{
     margin: auto;
-    max-width: 1187px;
+    max-width: 1186px;
     padding-top: 16px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +44,7 @@ header h4{
     color: #fff;
     margin: 270px 128px 332px 104px;
     font-weight: 300;
-    letter-spacing: 12px;
+    letter-spacing: 10px;
  }
 .who_we_are{
     background-color: #fff;
@@ -128,6 +129,9 @@ h4{
 .who_we_are2{
     padding-bottom: 165px;
 }
+.mustache{
+    max-width: 100%;
+}
 .last_post{
     margin-bottom: 162px;
 }
@@ -200,7 +204,6 @@ time{
 }
 .maps\+contact img{
     margin-bottom: 52px;
-    max-width: 100%;
 }
 .a_contact{
     font-size: 19px;
