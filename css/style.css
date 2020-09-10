@@ -95,7 +95,7 @@ p{
     align-content: stretch;
 }
 .grid_img img{
-  width: 24.7%;
+    width: 24.7%;
     margin: 2px;
 }
 h4{
@@ -121,10 +121,116 @@ h4{
 }
 .photo p{
     font-weight: 300;
-    font-size: 13px;
+    font-size: 13px;!important;
     margin-bottom: 49px;
     margin-left: 18px;
 }
 .who_we_are2{
     padding-bottom: 165px;
+}
+.last_post{
+    margin-bottom: 162px;
+}
+.last_photo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    margin-bottom: 84px;
+}
+time{
+    font-size: 13px;
+    color: #505d68;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.time\+p{
+    padding: 43px 38px 60px;
+    text-align: left;
+}
+.time\+p h6{
+    font-size: 30px;
+    color: #505d68;
+    padding-bottom: 43px;
+}
+.time\+p p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #505d68;
+    line-height: 25px;
+    padding-bottom: 58px;
+}
+.time\+p a{
+    border: 1px solid #000;
+    padding: 20px 47px 17px;
+    color: #505d68;
+    font-weight: 300;
+    list-style: none;
+}
+.more{
+    font-weight: 300;
+    font-size: 14px;
+    color: #505d68;
+    padding: 25px 46px 24px 50px;
+    border: 1px solid #000;
+    text-transform: capitalize;
+}
+.contact_us{
+    padding-bottom: 80px;
+}
+.maps\+contact{
+    background-color: #f9f9f9;
+}
+.contact h5{
+    margin-bottom: 50px;!important;
+    color: #505d68;!important;
+}
+.contact p{
+    font-size: 19px;!important;
+    color: #505d68;!important;
+}
+.contact{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.location,.phone,.fax,.email{
+    width: 50%;
+}
+.maps\+contact img{
+    margin-bottom: 52px;
+    max-width: 100%;
+}
+.a_contact{
+    font-size: 19px;
+    color: #505d68;
+    font-weight: 300;
+    line-height: 32px;
+    margin-bottom: 51px;
+}
+footer p{
+    font-weight: 300;
+    font-size: 13px;!important;
+    margin: 44px 15px 39px 15px;
+    color: #505d68;!important;
+}
+footer a{
+    font-weight: 300;!important;
+    font-size: 13px;!important;
+    margin: 48px 15px 35px 15px;!important;
+    color: #505d68;!important;
+    list-style: none;
+}
+footer{
+    background-color: #eee;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.clear{
+    clear: both;
 }
