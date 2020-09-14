@@ -42,10 +42,9 @@ header h4{
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;
     color: #fff;
-    margin: 270px 128px 332px 104px;
     font-weight: 300;
     letter-spacing: 10px;
- }
+}
 .who_we_are{
     background-color: #fff;
     padding-top: 81px;
@@ -237,3 +236,64 @@ footer{
 .clear{
     clear: both;
 }
+/*------------------------------------------------2 СТРАНИЦА------------------------------------------------------*/
+.about_bg{
+    background-image: url('../images/bg_header_about.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 170px;
+}
+.about_section{
+padding: 0 254px 158px;
+}
+.about_section p{
+    font-size: 18px;
+    color: #a5a8ab;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+.about_dinner{
+    width: 640px;
+    height: 450px;
+}
+.about_dinner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.photo_about{
+    background-color: #f9f9f9;
+}
+.photo_about h6{
+    color: #505d68;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 56px 0 96px 41px;
+}
+.photo_about p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #505d68;
+    margin: 0 99px 50px 58px;
+    line-height: 30px;
+}
+.about_p\+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.photo_about ul{
+    list-style: none;
+    color: #505d68;
+    margin: 209px 73px 50px 0;
+}
+.photo_about li{
+    line-height: 30px;
+}
+.photo_about li:before{
+    content: "-";
+    width: 6px;
+    height: 2px;
+    color: #505d68;
+    margin-right: 10px;
+}
+/*------------------------------------------------------3 СТРАНИЦА-----------------------------------------------*/
