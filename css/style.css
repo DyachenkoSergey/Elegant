@@ -44,6 +44,9 @@ header h4{
     color: #fff;
     font-weight: 300;
     letter-spacing: 10px;
+    position: absolute;
+    left: 10%;
+    top: 45%;
 }
 .who_we_are{
     background-color: #fff;
@@ -297,3 +300,100 @@ padding: 0 254px 158px;
     margin-right: 10px;
 }
 /*------------------------------------------------------3 СТРАНИЦА-----------------------------------------------*/
+
+.blog_header_bg{
+    background-image: url('../images/blog_header_bg.png');
+    background-size: cover;
+    height: 100vh;
+}
+.blog_main{
+    background-color: #fff;
+    padding: 78px 64px;
+}
+.blog_container{
+    margin: auto;
+    max-width: 1150px;
+    background-color: #f9f9f9;
+    padding: 63px 70px 65px 63px;
+    text-align: center;
+}
+.blog_write{
+    background-color: #fff;
+    padding: 32px;
+    text-align: left;
+    margin-bottom: 57px;
+}
+.blog_write_pictures{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 30px;
+    color: #000;
+    padding-bottom: 34px;
+    font-weight: 300;
+}
+time{
+    font-weight: 300;
+    font-size: 15px;
+    color: #d3b000;
+    margin-bottom: 42px;
+}
+.blog_write p{
+    color: #747a7f;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 72px;
+}
+.blog_write a{
+    color: #021725;
+    font-size: 16px;
+    border: 1px solid #000;
+    padding: 20px 52px 17px 54px;
+}
+aside{
+    text-align: left;
+}
+aside h3{
+    font-size: 23px;
+    color: #dcddde;
+    font-weight: 300;
+    padding-bottom: 17px;
+    border-bottom: 3px solid #d3b000;
+    margin-bottom: 40px;
+}
+.blog_pictures{
+    width: 300px;
+    height: 300px;
+}
+.blog_pictures img{
+    width: 100%;
+}
+
+aside ul{
+    list-style: none;
+}
+aside li{
+    font-size: 16px;
+    color: #021725;
+    line-height: 24px;
+}
+.list3{
+    display: flex;
+    flex-direction: column;
+}
+.list1,.list2{
+    margin-bottom: 64px;
+}
+.secondary_container{
+    display: flex;
+    justify-content: space-between;
+}
+.blog_last_link{
+    color: #021725;
+    font-size: 16px;
+    border: 1px solid #000;
+    padding: 20px 52px 17px 54px;
+}
