@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c05473b-04f3-48f3-aec4-67ecb7772f26" name="Default Changelist" comment="all pages" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DyachenkoSergey &lt;70906284+dyachenkosergey@users.noreply.github.com&gt;" />
+        <option value="DyachenkoSergey" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hDdjHOGHXugwzowbAEX6tYwkXs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38063\Desktop\Elegant\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c05473b-04f3-48f3-aec4-67ecb7772f26" name="Default Changelist" comment="" />
+      <created>1599549730469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599549730469</updated>
+      <workItem from="1599549731923" duration="6100000" />
+      <workItem from="1599636511257" duration="16406000" />
+      <workItem from="1599712492319" duration="1968000" />
+      <workItem from="1599767945564" duration="10562000" />
+      <workItem from="1599809705538" duration="2098000" />
+      <workItem from="1599814300220" duration="633000" />
+      <workItem from="1599856458383" duration="1343000" />
+      <workItem from="1599906033431" duration="2115000" />
+      <workItem from="1599980149685" duration="12861000" />
+      <workItem from="1600100764355" duration="9610000" />
+      <workItem from="1600499503320" duration="7991000" />
+      <workItem from="1600594493750" duration="318000" />
+      <workItem from="1600680678473" duration="8380000" />
+      <workItem from="1600716077116" duration="17780000" />
+      <workItem from="1600774742489" duration="3858000" />
+      <workItem from="1600793430890" duration="4770000" />
+      <workItem from="1600798549359" duration="173000" />
+    </task>
+    <task id="LOCAL-00001" summary="beginning project.Header.">
+      <created>1599552560013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599552560013</updated>
+    </task>
+    <task id="LOCAL-00002" summary="header ready without menu">
+      <created>1599638265824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599638265825</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+section &quot;who we are&quot;">
+      <created>1599640177172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599640177172</updated>
+    </task>
+    <task id="LOCAL-00004" summary="+section &quot;what we do&quot;">
+      <created>1599644516117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599644516117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="+section &quot;who we are 2&quot;">
+      <created>1599648491103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599648491104</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+menu icon">
+      <created>1599712771399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599712771399</updated>
+    </task>
+    <task id="LOCAL-00007" summary="+menu icon-button">
+      <created>1599714388128</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599714388128</updated>
+    </task>
+    <task id="LOCAL-00008" summary="+menu icon-button">
+      <created>1599714404938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599714404938</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish project">
+      <created>1599775779611</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599775779611</updated>
+    </task>
+    <task id="LOCAL-00010" summary="work on bugs">
+      <created>1599779176746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599779176746</updated>
+    </task>
+    <task id="LOCAL-00011" summary="+second page &quot;About&quot;">
+      <created>1600078912389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600078912390</updated>
+    </task>
+    <task id="LOCAL-00012" summary="+page blog">
+      <created>1600160961310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600160961310</updated>
+    </task>
+    <task id="LOCAL-00013" summary="all pages">
+      <created>1600797991068</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600797991070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="beginning project.Header." />
+    <MESSAGE value="header ready without menu" />
+    <MESSAGE value="+section &quot;who we are&quot;" />
+    <MESSAGE value="+section &quot;what we do&quot;" />
+    <MESSAGE value="+section &quot;who we are 2&quot;" />
+    <MESSAGE value="+menu icon" />
+    <MESSAGE value="+menu icon-button" />
+    <MESSAGE value="finish project" />
+    <MESSAGE value="work on bugs" />
+    <MESSAGE value="+second page &quot;About&quot;" />
+    <MESSAGE value="+page blog" />
+    <MESSAGE value="all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="all pages" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600798614025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600798614025" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600703958768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600703958768" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600798719324">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600798719324" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 420px) {
+    .grid_img{
+        display: block;
+        text-align: center;
+    }
+    .grid_img img{
+        display: block;
+        margin: auto;
+    }
+    .maps{
+        width: 400px;
+        height: 400px;
+    }
+    .all_photo{
+        display: block;
+    }
+    .last_photo{
+        display: block;
+    }
+    .contact{
+        display: block;
+    }
+    .location, .phone, .fax, .email{
+        margin: auto;
+        width: 100%;
+    }
+    .maps\+contact{
+        max-width: 410px;
+        margin: auto;
+    }
+    .a_contact{
+        display: block;
+    }
+    .main{
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+    .photo{
+        display: block;
+        text-align: center;
+        width: 245px;
+        margin: auto;
+    }
+    .three_photo{
+        margin: auto;
+    }
+    h4,p{
+        margin: auto;
+    }
+
+    }
+
+@media only screen and (max-width: 375px) {
+
+}
+@media only screen and (max-width: 360px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
