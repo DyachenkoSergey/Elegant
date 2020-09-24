@@ -6,65 +6,278 @@
 }
 @media only screen and (max-width: 767px) {
 
-@media only screen and (max-width: 420px) {
-    .grid_img{
-        display: block;
-        text-align: center;
-    }
-    .grid_img img{
-        display: block;
-        margin: auto;
-    }
-    .maps{
-        width: 400px;
-        height: 400px;
-    }
-    .all_photo{
-        display: block;
-    }
-    .last_photo{
-        display: block;
-    }
-    .contact{
-        display: block;
-    }
-    .location, .phone, .fax, .email{
-        margin: auto;
-        width: 100%;
-    }
-    .maps\+contact{
-        max-width: 410px;
-        margin: auto;
-    }
-    .a_contact{
-        display: block;
-    }
-    .main{
-        max-width: 400px;
+    /*--------------------------------------------INDEX---767px------------------------------*/
+.bg{
+    background-image: url('../images/index_mobile_bg_header.png');
+}
+    .header_div{
+        max-width: 550px;
         margin: auto;
         text-align: center;
     }
-    .photo{
-        display: block;
-        text-align: center;
-        width: 245px;
-        margin: auto;
+    .logo_header{
+        width: 370px;
+        height: 85px;
+    }
+    .menu i{
+        padding-top: 10px;
+       font-size: 50px;
+    }
+    .bg h1{
+        font-size: 80px;
+        letter-spacing: 5px;
+    }
+    .header_menu_h4{
+        color: transparent;
+    }
+    .who_we_are {
+        background-color: #fff;
+        padding: 40px 15px 70px;
+    }
+    .main_h3{
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+    .main_h5,.index_p{
+        font-size: 30px;
+    }
+    .index_p{
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+    .photo p{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .what_we_do,.who_we_are2{
+        padding-bottom: 80px;
+    }
+    .work_all_img {
+        width: 50%;
+    }
+    .who_we_are a{
+        padding: 15px;
+        font-size: 20px;
+    }
+    h4{
+        font-size: 45px;
     }
     .three_photo{
-        margin: auto;
+        width: 750px;
+        height: 530px;
     }
-    h4,p{
-        margin: auto;
+    .keyboard{
+        width: 750px;
+        height: 750px;
     }
+    .maps {
+        width: 750px;
+        height: 250px;
+        margin-bottom: 25px;
+    }
+    .last_post{
+        margin-bottom: 80px;
+    }
+    .main{
+        max-width: 750px;
+    }
+    .last_photo {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .time\+p{
+        padding: 15px;
+        display: block;
+        height: 100%;
+        width: 100%;
 
     }
+    .time\+p h6{
+        padding-bottom: 30px;
+        font-size: 45px;
+    }
+    .index_time\+p{
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .time\+p a{
+        padding: 10px 15px;
+    }
+    .more{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+    .contact p{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .contact_us{
+        padding-bottom: 40px;
+    }
+    .contact h5{
+    margin-bottom: 25px;
+    }
+    .maps\+contact img {
+        margin-bottom: 25px;
+    }
+    .a_contact{
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .location,.phone,.fax,.email,.contact,.maps\+contact,.all_photo{
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .right,.left{
+        margin: 15px;
+        font-size: 30px;
+    }
 
+/*-------------------------------------ABOUT----767px--------------------------------------*/
+    .about_bg {
+        background-image: url('../images/about_mobile_bg_header.jpg');
+        background-size: cover;
+        height: 100vh;
+        margin-bottom: 80px;
+    }
+    .about_section {
+        max-width: 660px;
+        margin: auto;
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    .about_dinner{
+        width: 676px;
+        height: 450px;
+    }
+    .photo_about h6{
+        font-size: 60px;
+    }
+    .about_section p{
+        font-size: 30px;
+    }
+    .photo_about p{
+        font-size: 30px;
+    }
+    .about_p\+ul{
+        display: block;
+    }
+    .photo_about li{
+        font-size: 30px;
+    }
+    .photo_about ul{
+        margin: 15px 50px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+}
 @media only screen and (max-width: 375px) {
+/*--------------------------------------------------INDEX-----375px-----------------------------------*/
+    .header_div {
+        max-width: 250px;
+    }
+    .logo_header{
+        width: 200px;
+        height: 45px;
+    }
+    .menu i {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .bg h1 {
+        font-size: 70px;
+    }
+    .main_h3{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .main_h5{
+        font-size: 20px;
+    }
+    .main {
+        max-width: 350px;
+    }
+    .index_p{
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .photo p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .what_we_do {
+        padding-bottom: 40px;
+    }
+    .work_all_img {
+         width: 100%;
+     }
+    .who_we_are a{
+        padding: 15px;
+        font-size: 20px;
+    }
+    .what_we_do{
+        padding-bottom: 40px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    .who_we_are2{
+        padding-bottom: 40px;
+    }
+    .three_photo{
+        width: 350px;
+        height: 200px;
+    }
+    .keyboard{
+        width: 350px;
+        height: 250px;
+    }
+    .maps {
+        width: 350px;
+        height: 200px;
+    }
+    .a_contact {
+        font-size: 17px;
+    }
+    .index_p{
+        font-size: 17px;
+    }
+    .last_post{
+        margin-bottom: 40px;
+    }
+    .left,.right{
+        font-size: 20px;
+    }
+
 
 }
 @media only screen and (max-width: 360px) {
 
 }
 @media only screen and (max-width: 320px) {
-
+    /*-----------------------------------------------INDEX-------320px--------------------------------*/
+    .menu i {
+        padding-top: 0;
+    }
+    .bg h1 {
+        font-size: 50px;
+    }
+    .main {
+        max-width: 300px;
+    }
+    .keyboard,.maps{
+        width: 300px;
+        height: 200px;
+    }
+    .three_photo{
+        width: 296px;
+    }
+    .right,.left{
+        font-size: 15px;
+    }
 }
