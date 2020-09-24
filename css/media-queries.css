@@ -7,9 +7,9 @@
 @media only screen and (max-width: 767px) {
 
     /*--------------------------------------------INDEX---767px------------------------------*/
-.bg{
+    .bg{
     background-image: url('../images/index_mobile_bg_header.png');
-}
+    }
     .header_div{
         max-width: 550px;
         margin: auto;
@@ -130,6 +130,9 @@
         margin: auto;
         display: block;
     }
+    .location,.phone,.fax,.email{
+        width: 750px;
+    }
     .right,.left{
         margin: 15px;
         font-size: 30px;
@@ -149,7 +152,7 @@
         text-align: center;
     }
     .about_dinner{
-        width: 676px;
+        width: 760px;
         height: 450px;
     }
     .photo_about h6{
@@ -170,10 +173,88 @@
     .photo_about ul{
         margin: 15px 50px;
     }
-
+/*-------------------------------------------BLOG---767px-----------------------------*/
+    .blog_header_bg {
+        background-image: none;
+        height: 0;
+    }
+    .blog_main{
+        padding: 15px;
+    }
+    .blog_container {
+        max-width: 720px;
+        margin: auto;
+        background-color: #fff;
+        padding: 15px;
+    }
+    .blog_write {
+        padding: 15px;
+    }
+    .blog_write_pictures {
+        width: 700px;
+        height: 400px;
+    }
+    .blog_pictures{
+        width: 700px;
+        height: 400px;
+    }
+    .list3,.secondary_container{
+        display: block;
+    }
+    aside{
+        margin-bottom: 50px;
+        background-color: #f9f9f9;
+    }
+    .blog_main p{
+        font-size: 30px;
+    }
+    .blog_main h2{
+        font-size: 56px;
+    }
+    .blog_main time{
+        font-size: 27px;
+    }
+    .blog_write a{
+        font-size: 30px;
+    }
+    .blog_h3{
+        margin-bottom: 20px;
+        font-size: 42px;
+    }
+    .blog_a{
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 420px) {
+    /*---------------------------------------INDEX------420px---------------------------------*/
+    .header_div {
+        max-width: 250px;
+    }
+    .work_all_img {
+        width: 100%;
+    }
+    .three_photo{
+        width: 405px;
+        height: 200px;
+    }
+    .keyboard{
+        width: 405px;
+        height: 250px;
+    }
+    .maps {
+        width: 405px;
+        height: 200px;
+    }
+    .location,.phone,.fax,.email {
+        width: 405px;
+    }
+    /*---------------------------------------------ABOUT-----420px----------------------------*/
+    .about_dinner {
+        width: 405px;
+        height: 405px;
+    }
+
 }
 @media only screen and (max-width: 375px) {
 /*--------------------------------------------------INDEX-----375px-----------------------------------*/
@@ -241,6 +322,9 @@
         width: 350px;
         height: 200px;
     }
+    .location,.phone,.fax,.email {
+        width: 350px;
+    }
     .a_contact {
         font-size: 17px;
     }
@@ -253,7 +337,11 @@
     .left,.right{
         font-size: 20px;
     }
-
+/*---------------------------------------ABOUT--------375px---------------------------*/
+    .about_dinner {
+        width: 350px;
+        height: 350px;
+    }
 
 }
 @media only screen and (max-width: 360px) {
@@ -279,5 +367,16 @@
     }
     .right,.left{
         font-size: 15px;
+    }
+    .contact p{
+        font-size: 17px;
+    }
+    .location,.phone,.fax,.email {
+        width: 300px;
+    }
+    /*----------------------------------------ABOUT---320px-----------------------------*/
+    .about_dinner {
+        width: 300px;
+        height: 300px;
     }
 }
