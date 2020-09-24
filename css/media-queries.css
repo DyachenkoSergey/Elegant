@@ -156,27 +156,27 @@
         height: 450px;
     }
     .photo_about h6{
-        font-size: 60px;
+        font-size: 50px;
     }
     .about_section p{
-        font-size: 30px;
+        font-size: 15px;
     }
     .photo_about p{
-        font-size: 30px;
+        font-size: 15px;
     }
     .about_p\+ul{
         display: block;
     }
     .photo_about li{
-        font-size: 30px;
+        font-size: 15px;
     }
     .photo_about ul{
         margin: 15px 50px;
     }
 /*-------------------------------------------BLOG---767px-----------------------------*/
-    .blog_header_bg {
+    /*.blog_header_bg {
         background-image: none;
-        height: 0;
+        height: 0;*/
     }
     .blog_main{
         padding: 15px;
@@ -353,7 +353,7 @@
         padding-top: 0;
     }
     .bg h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     .main {
         max-width: 300px;
