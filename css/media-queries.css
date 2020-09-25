@@ -347,6 +347,11 @@
     .work_all_img {
         width: 100%;
     }
+    .bg h1 {
+        font-size: 50px;
+        top: 35%;
+        left: 5%;
+    }
     .three_photo{
         width: 405px;
         height: 200px;
