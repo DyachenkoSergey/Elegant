@@ -473,6 +473,10 @@ aside ul{
     margin-bottom: 51px;
 
 }
+.lisbon{
+    height: 100%;
+    width: 100%;
+}
 .contact_mid_right_top{
     max-height: 300px;
     max-width: 462px;
@@ -560,13 +564,13 @@ aside ul{
     line-height: 32px;
 }
 .project_img_left_min{
-    max-width: 666px;
-    max-height: 416px;
+    width: 666px;
+    height: 416px;
     margin-bottom: 19px;
 }
 .project_img_left_max{
-    max-width: 666px;
-    max-height: 863px;
+    width: 666px;
+    height: 863px;
     margin-bottom: 19px;
 }
 .project_img_right{
@@ -631,7 +635,7 @@ aside ul{
 }
 .work_h3{
     font-size: 44px;
-    color: #021725;
+    color: #a5a8ab;
     margin-bottom: 60px;
     font-weight: 700;
 }

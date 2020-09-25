@@ -8,7 +8,7 @@
 
     /*--------------------------------------------INDEX---767px------------------------------*/
     .bg{
-    background-image: url('../images/index_mobile_bg_header.png');
+    background-image: url('../images/about_mobile_bg_header.jpg');
     }
     .header_div{
         max-width: 550px;
@@ -174,10 +174,10 @@
         margin: 15px 50px;
     }
 /*-------------------------------------------BLOG---767px-----------------------------*/
-    /*.blog_header_bg {
+    .blog_header_bg {
         background-image: none;
         height: 0;
-        }*/
+        }
 
     .blog_main{
         padding: 15px;
@@ -225,6 +225,118 @@
     .blog_a{
         font-size: 30px;
     }
+    /*------------------------------------CONTACT---767px------------------------------*/
+    .contact_top {
+        height: 0;
+        background-image: none;
+    }
+    .contact_container {
+        max-width: 720px;
+    }
+    .contact_container h5 {
+        margin-top: 60px;
+        font-size: 90px;
+        margin-bottom: 60px;
+    }
+    .contact_container h3{
+        font-size: 28px;
+        margin-bottom: 160px;
+    }
+    .contact_mid_left_top h6{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .contact_mid_left_top h6:before {
+        border-top: solid 6px #fff;
+        width: 58px;
+        margin-bottom: 96px;
+    }
+    .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom{
+        height: 375px;
+        width: 670px;
+        float: none;
+    }
+    .contact_mid_left_bottom{
+        padding: 78px 133px;
+    }
+    .contact_mid_left_bottom p {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .contact_mid_right_bottom{
+        padding: 100px 0 100px 60px;
+    }
+    .contact_tel {
+        font-size: 45px;
+    }
+    .contact_tel:before {
+        border-top: solid 6px #fff;
+        width: 58px;
+        margin-bottom: 96px;
+    }
+    .contact_link{
+        border: solid 1px #000;
+        padding: 47px 100px;
+    }
+/*-------------------------------------------------PROJECT-----767px----------------------------*/
+    .project_top{
+        background-image: url('../images/project_mobile_header.png');
+    }
+
+    .project_main,.project_container,.project_left_p,.project_link{
+        max-width: 95%;
+    }
+    .project_main{
+        margin: auto;
+        text-align: center;
+    }
+    .project_left h6{
+        font-size: 95px;
+    }
+    .project_left_p p{
+        font-size: 31px;
+        line-height: 35px;
+    }
+    .project_img_left_min,.project_img_left_max,.project_img_right,.project_right,.project_left{
+        width: 100%;
+    }
+    .project_img_right{
+        height: 14%;
+    }
+    .project_left,.project_right{
+        clear: both;
+        margin: auto;
+        text-align: center;
+    }
+    .project_a{
+        font-size: 15px;
+        padding: 22px 50px;
+    }
+    /*-----------------------------------------------WORK-----767px------------------------------*/
+    .work_top{
+        background-image: url('../images/work_mobile_bg_header.png');
+        background-size: cover;
+        height: 100vh;
+    }
+    .work_container {
+        max-width: 95%;
+    }
+    .work_h5 {
+        font-size: 26px;
+    }
+    .work_h3{
+        font-size: 90px;
+    }
+    .work_p {
+        font-size: 30px;
+    }
+    .work_all_img {
+        width: 95%;
+        height: 20%;
+    }
+    .work_all_img {
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -255,7 +367,97 @@
         width: 405px;
         height: 405px;
     }
+    /*-----------------------------------------------BLOG-------420px----------------------*/
+    .blog_container {
+        max-width: 405px;
+    }
+    .blog_write_pictures,.blog_pictures{
+        width: 405px;
+        height: 250px;
+        margin: auto;
+    }
+    .blog_write {
+        padding: 0;
+    }
+    .blog_container{
+        padding: 0;
+    }
+    .blog_main {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .blog_write a{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
 
+    .blog_main p{
+        font-size: 20px;
+    }
+    .blog_main h2{
+        font-size: 40px;
+    }
+    .blog_main time{
+        font-size: 20px;
+    }
+    .blog_write a{
+        font-size: 20px;
+    }
+    .blog_h3{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .blog_a {
+        font-size: 20px;
+    }
+    /*--------------------------------------------CONTACT---420px----------------------------------*/
+    .contact_container {
+        max-width: 95%;
+    }
+    .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom {
+        height: 350px;
+        width: 100%;
+    }
+    .contact_mid_left_bottom{
+        padding: 15px;
+    }
+    .contact_mid_left_top h6{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .contact_mid_left_bottom p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contact_tel {
+        font-size: 30px;
+    }
+    .contact_mid_left_top h6:before {
+        border-top: solid 4px #fff;
+        width: 40px;
+        margin-bottom: 50px;
+    }
+    .contact_tel:before {
+        border-top: solid 4px #fff;
+        width: 40px;
+        margin-bottom: 50px;
+    }
+    /*----------------------------------------------------PROJECT---420px---------------------------*/
+    .project_ul{
+
+    }
+    .project_a{
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+    .left,.right{
+        font-size: 20px;
+    }
+
+    /*---------------------------------------------WORK-----420px--------------------------------------*/
+    .work_all_img {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 375px) {
 /*--------------------------------------------------INDEX-----375px-----------------------------------*/
@@ -343,6 +545,21 @@
         width: 350px;
         height: 350px;
     }
+/*------------------------------------------------------BLOG-----375px------------------------------*/
+    .blog_container {
+        max-width: 350px;
+    }
+    .blog_write_pictures,.blog_pictures{
+        width: 350px;
+        height: 200px;
+        margin: auto;
+    }
+/*-------------------------------------------------PROJECT----375px-------------------------*/
+    .project_a {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
 
 }
 @media only screen and (max-width: 360px) {
@@ -379,5 +596,44 @@
     .about_dinner {
         width: 300px;
         height: 300px;
+    }
+    /*------------------------------------------BLOG----320px---------------------------------*/
+    .blog_container {
+        max-width: 320px;
+    }
+    .blog_write_pictures,.blog_pictures{
+        width: 300px;
+        height: 150px;
+        margin: auto;
+    }
+/*---------------------------------------------CONTACT---320px-------------------------------------*/
+    .contact_mid_left_top h6{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .contact_mid_left_bottom p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .contact_tel {
+        font-size: 20px;
+    }
+    .contact_container h3 {
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+    .contact_container h5{
+        font-size: 30px;
+    }
+    .contact_link {
+        border: solid 1px #000;
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+    .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom {
+        height: 220px;
+    }
+    .contact_tel:before {
+        margin-bottom: 30px;
     }
 }
