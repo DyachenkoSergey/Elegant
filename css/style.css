@@ -585,6 +585,7 @@ aside ul{
     height: 100%;
 }
 .project_left{
+    max-width: 666px;
     margin-bottom: 64px;
     float: left;
 }
@@ -613,6 +614,55 @@ aside ul{
     list-style: none;
     padding: 22px 95px;
 }
+/*------------------------------------------CAROUSEL------------------------------------------*/
+.owl-carousel .owl-nav .owl-prev:before{
+    content: "\f104";
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+.owl-carousel .owl-nav .owl-next:before {
+    content: "\f105";
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.owl-dots span{
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.owl-dots{
+    position: absolute;
+    right: 320px;
+    bottom: 50px;
+}
+.owl-dot.active span{
+    padding: 6px;
+    margin: 6px;
+    background-color: #000;
+    opacity: 50%;
+}
+
+
+
 
 
 /*------------------------------------------------WORK--------------------------------------------------*/

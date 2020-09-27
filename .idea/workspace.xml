@@ -27,9 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3c05473b-04f3-48f3-aec4-67ecb7772f26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/project.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,12 +70,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\38063\Desktop\Elegant\js" />
       <recent name="C:\Users\38063\Desktop\Elegant\css" />
     </key>
   </component>
@@ -113,7 +115,7 @@
       <workItem from="1601058905020" duration="33000" />
       <workItem from="1601100292295" duration="3139000" />
       <workItem from="1601120320566" duration="18000" />
-      <workItem from="1601124028160" duration="7761000" />
+      <workItem from="1601124028160" duration="15423000" />
     </task>
     <task id="LOCAL-00001" summary="beginning project.Header.">
       <created>1599552560013</created>
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601100920975</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="finish">
+      <created>1601191794405</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601191794406</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,21 +321,22 @@
     <MESSAGE value="+media-queries index" />
     <MESSAGE value="everything seems to be ready" />
     <MESSAGE value="+background color header" />
-    <option name="LAST_COMMIT_MESSAGE" value="+background color header" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="0" key="CommitChangelistDialog2" timestamp="1601100918733">
+    <state x="439" y="0" key="CommitChangelistDialog2" timestamp="1601191792535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601100918733" />
+    <state x="439" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601191792535" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601118037726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601118037726" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601100925146">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601191799404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601100925146" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601191799404" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1601124066951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
