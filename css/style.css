@@ -304,6 +304,7 @@ footer{
     margin: 56px 15px 95px 42px;
 }
 .photo_about p{
+    width: 230px;
     font-weight: 300;
     font-size: 18px;
     color: #505d68;

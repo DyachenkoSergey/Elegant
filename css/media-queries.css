@@ -20,16 +20,15 @@
         opacity: 50%;
     }
     .logo_header{
-        width: 370px;
-        height: 85px;
+        max-width: 370px;
+        height: 65px;
     }
     .menu i{
         padding-top: 10px;
-       font-size: 50px;
+        font-size: 50px;
     }
-    .bg h1{
+    .bg h1,.main_h3{
         font-size: 80px;
-        letter-spacing: 5px;
     }
     .header_menu_h4{
         color: transparent;
@@ -39,18 +38,14 @@
         padding: 40px 15px 70px;
     }
     .main_h3{
-        font-size: 80px;
         margin-bottom: 40px;
     }
-    .main_h5,.index_p{
+    .main_h5,.index_p,.photo p,.a_contact,.right,.left{
         font-size: 30px;
+        line-height: 40px;
     }
     .index_p{
         margin-bottom: 50px;
-        line-height: 40px;
-    }
-    .photo p{
-        font-size: 30px;
         line-height: 40px;
     }
     .what_we_do,.who_we_are2{
@@ -59,31 +54,24 @@
     .work_all_img {
         width: 50%;
     }
-    .who_we_are a{
+    .who_we_are a,.more{
         padding: 15px;
         font-size: 20px;
     }
     h4{
         font-size: 45px;
     }
-    .three_photo{
-        width: 750px;
-        height: 530px;
-    }
-    .keyboard{
-        width: 750px;
-        height: 750px;
+    .three_photo,.keyboard,.maps{
+        height: 5%;
     }
     .maps {
-        width: 750px;
-        height: 250px;
         margin-bottom: 25px;
     }
     .last_post{
         margin-bottom: 80px;
     }
-    .main{
-        max-width: 750px;
+    .main,.three_photo,.keyboard,.maps,.time\+p,.location,.phone,.fax,.email{
+        width: 100%;
     }
     .last_photo {
         display: block;
@@ -93,53 +81,33 @@
         padding: 15px;
         display: block;
         height: 100%;
-        width: 100%;
 
     }
     .time\+p h6{
         padding-bottom: 30px;
         font-size: 45px;
     }
-    .index_time\+p{
+    .index_time\+p,.contact p{
         margin-bottom: 20px;
         font-size: 30px;
         line-height: 40px;
     }
-    .time\+p a{
+    .time\+p a,.more{
         padding: 10px 15px;
-    }
-    .more{
-        padding: 10px 15px;
-        font-size: 20px;
-    }
-    .contact p{
-        font-size: 30px;
-        line-height: 40px;
     }
     .contact_us{
         padding-bottom: 40px;
     }
-    .contact h5{
-    margin-bottom: 25px;
-    }
-    .maps\+contact img {
+    .maps\+contact img,.a_contact,.contact h5{
         margin-bottom: 25px;
-    }
-    .a_contact{
-        margin-bottom: 25px;
-        font-size: 30px;
     }
     .location,.phone,.fax,.email,.contact,.maps\+contact,.all_photo{
         text-align: center;
         margin: auto;
         display: block;
     }
-    .location,.phone,.fax,.email{
-        width: 750px;
-    }
     .right,.left{
         margin: 15px;
-        font-size: 30px;
     }
 
 /*-------------------------------------ABOUT----767px--------------------------------------*/
@@ -150,29 +118,23 @@
         margin-bottom: 80px;
     }
     .about_section {
-        max-width: 660px;
+        width: 100%;
         margin: auto;
         padding-bottom: 80px;
         text-align: center;
     }
     .about_dinner{
-        width: 760px;
-        height: 450px;
+        width: 100%;
+        height: 10%;
     }
     .photo_about h6{
         font-size: 50px;
     }
-    .about_section p{
-        font-size: 15px;
-    }
-    .photo_about p{
+    .about_section p,.photo_about p,.photo_about li{
         font-size: 15px;
     }
     .about_p\+ul{
         display: block;
-    }
-    .photo_about li{
-        font-size: 15px;
     }
     .photo_about ul{
         margin: 15px 50px;
@@ -183,25 +145,20 @@
         height: 0;
         }
 
-    .blog_main{
+    .blog_main,.blog_write{
         padding: 15px;
     }
+    .blog_container,.blog_write_pictures,.blog_pictures{
+        width: 100%;
+    }
     .blog_container {
-        max-width: 720px;
         margin: auto;
         background-color: #fff;
         padding: 15px;
     }
-    .blog_write {
-        padding: 15px;
-    }
-    .blog_write_pictures {
-        width: 700px;
-        height: 400px;
-    }
-    .blog_pictures{
-        width: 700px;
-        height: 400px;
+    .blog_write_pictures,.blog_pictures{
+        height: 10%;
+        margin: auto;
     }
     .list3,.secondary_container{
         display: block;
@@ -210,24 +167,15 @@
         margin-bottom: 50px;
         background-color: #f9f9f9;
     }
-    .blog_main p{
-        font-size: 30px;
-    }
     .blog_main h2{
         font-size: 56px;
     }
-    .blog_main time{
+    .blog_main time,.blog_write a,.blog_main p,.blog_a{
         font-size: 27px;
-    }
-    .blog_write a{
-        font-size: 30px;
     }
     .blog_h3{
         margin-bottom: 20px;
         font-size: 42px;
-    }
-    .blog_a{
-        font-size: 30px;
     }
     /*------------------------------------CONTACT---767px------------------------------*/
     .contact_top {
@@ -235,20 +183,22 @@
         background-image: none;
     }
     .contact_container {
-        max-width: 720px;
+        max-width: 100%;
     }
     .contact_container h5 {
         margin-top: 60px;
         font-size: 90px;
         margin-bottom: 60px;
+        display: inline-block;
     }
     .contact_container h3{
         font-size: 28px;
-        margin-bottom: 160px;
+        margin-bottom: 100px;
     }
     .contact_mid_left_top h6{
         font-size: 45px;
         line-height: 60px;
+        margin-bottom: 40px;
     }
     .contact_mid_left_top h6:before {
         border-top: solid 6px #fff;
@@ -256,8 +206,8 @@
         margin-bottom: 96px;
     }
     .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom{
-        height: 375px;
-        width: 670px;
+        height: 10%;
+        width: 100%;
         float: none;
     }
     .contact_mid_left_bottom{
@@ -287,8 +237,8 @@
         background-image: url('../images/project_mobile_header.png');
     }
 
-    .project_main,.project_container,.project_left_p,.project_link{
-        max-width: 95%;
+    .project_main,.project_container,.project_left_p,.project_link,.project_img_left_min,.project_img_left_max,.project_img_right,.project_right,.project_left{
+        width: 100%;
     }
     .project_main{
         margin: auto;
@@ -301,11 +251,14 @@
         font-size: 31px;
         line-height: 35px;
     }
-    .project_img_left_min,.project_img_left_max,.project_img_right,.project_right,.project_left{
-        width: 100%;
+    .project_img_right,.project_img_left_min{
+        height: 15%;
     }
-    .project_img_right{
-        height: 14%;
+    .project_img_left_max{
+        height: 20%;
+    }
+    .project_img_left_min{
+        margin-bottom: 5px;
     }
     .project_left,.project_right{
         clear: both;
@@ -323,23 +276,20 @@
         height: 100vh;
     }
     .work_container {
-        max-width: 95%;
-    }
-    .work_h5 {
-        font-size: 26px;
+        width: 100%;
     }
     .work_h3{
         font-size: 90px;
     }
-    .work_p {
+    .work_p,.work_h5{
         font-size: 30px;
     }
     .work_all_img {
-        width: 95%;
+        width: 100%;
         height: 20%;
     }
     .work_all_img {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -348,97 +298,42 @@
     .header_div {
         max-width: 250px;
     }
-    .work_all_img {
-        width: 100%;
-    }
     .bg h1 {
         font-size: 50px;
         top: 35%;
         left: 5%;
     }
-    .three_photo{
-        width: 405px;
-        height: 200px;
-    }
-    .keyboard{
-        width: 405px;
-        height: 250px;
-    }
-    .maps {
-        width: 405px;
-        height: 200px;
-    }
-    .location,.phone,.fax,.email {
-        width: 405px;
-    }
-    /*---------------------------------------------ABOUT-----420px----------------------------*/
-    .about_dinner {
-        width: 405px;
-        height: 405px;
-    }
     /*-----------------------------------------------BLOG-------420px----------------------*/
-    .blog_container {
-        max-width: 405px;
-    }
-    .blog_write_pictures,.blog_pictures{
-        width: 405px;
-        height: 250px;
-        margin: auto;
-    }
-    .blog_write {
+    .blog_write,.blog_container,.blog_main {
         padding: 0;
     }
-    .blog_container{
-        padding: 0;
-    }
-    .blog_main {
-        padding: 0;
+    .blog_main,.blog_write a {
         margin-bottom: 50px;
     }
-    .blog_write a{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
-
-    .blog_main p{
+    .blog_main p,.blog_a,.blog_write a,.blog_main time,.blog_write a{
         font-size: 20px;
     }
     .blog_main h2{
         font-size: 40px;
     }
-    .blog_main time{
-        font-size: 20px;
-    }
-    .blog_write a{
-        font-size: 20px;
-    }
     .blog_h3{
         margin-bottom: 20px;
         font-size: 30px;
     }
-    .blog_a {
-        font-size: 20px;
-    }
     /*--------------------------------------------CONTACT---420px----------------------------------*/
-    .contact_container {
-        max-width: 95%;
-    }
-    .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom {
-        height: 350px;
-        width: 100%;
+    .contact_container h5 {
+        margin-top: 60px;
+        font-size: 70px;
+        margin-bottom: 30px;
     }
     .contact_mid_left_bottom{
         padding: 15px;
-    }
-    .contact_mid_left_top h6{
-        font-size: 35px;
-        line-height: 40px;
     }
     .contact_mid_left_bottom p {
         font-size: 20px;
         line-height: 25px;
     }
-    .contact_tel {
+    .contact_tel,.contact_mid_left_top h6 {
         font-size: 30px;
     }
     .contact_mid_left_top h6:before {
@@ -452,20 +347,9 @@
         margin-bottom: 50px;
     }
     /*----------------------------------------------------PROJECT---420px---------------------------*/
-    .project_ul{
-
-    }
     .project_a{
         font-size: 15px;
         padding: 15px 30px;
-    }
-    .left,.right{
-        font-size: 20px;
-    }
-
-    /*---------------------------------------------WORK-----420px--------------------------------------*/
-    .work_all_img {
-        width: 100%;
     }
 }
 @media only screen and (max-width: 375px) {
@@ -488,80 +372,26 @@
         font-size: 40px;
         margin-bottom: 30px;
     }
-    .main_h5{
-        font-size: 20px;
-    }
-    .main {
-        max-width: 350px;
-    }
     .index_p{
         margin-bottom: 25px;
-        font-size: 20px;
-        line-height: 25px;
     }
-    .photo p{
-        font-size: 20px;
-        line-height: 25px;
+    .photo p,.index_p{
+        line-height: 20px;
     }
-    .what_we_do {
+    .what_we_do,.what_we_do,.who_we_are2 {
         padding-bottom: 40px;
     }
-    .work_all_img {
-         width: 100%;
-     }
     .who_we_are a{
         padding: 15px;
-        font-size: 20px;
-    }
-    .what_we_do{
-        padding-bottom: 40px;
     }
     h4 {
         font-size: 25px;
     }
-    .who_we_are2{
-        padding-bottom: 40px;
-    }
-    .three_photo{
-        width: 350px;
-        height: 200px;
-    }
-    .keyboard{
-        width: 350px;
-        height: 250px;
-    }
-    .maps {
-        width: 350px;
-        height: 200px;
-    }
-    .location,.phone,.fax,.email {
-        width: 350px;
-    }
-    .a_contact {
-        font-size: 17px;
-    }
-    .index_p{
+    .a_contact,.index_p,.left,.right,.who_we_are a,.photo p,.main_h5{
         font-size: 17px;
     }
     .last_post{
         margin-bottom: 40px;
-    }
-    .left,.right{
-        font-size: 20px;
-    }
-/*---------------------------------------ABOUT--------375px---------------------------*/
-    .about_dinner {
-        width: 350px;
-        height: 350px;
-    }
-/*------------------------------------------------------BLOG-----375px------------------------------*/
-    .blog_container {
-        max-width: 350px;
-    }
-    .blog_write_pictures,.blog_pictures{
-        width: 350px;
-        height: 200px;
-        margin: auto;
     }
 /*-------------------------------------------------PROJECT----375px-------------------------*/
     .project_a {
@@ -582,48 +412,11 @@
     .bg h1 {
         font-size: 40px;
     }
-    .main {
-        max-width: 300px;
-    }
-    .keyboard,.maps{
-        width: 300px;
-        height: 200px;
-    }
-    .three_photo{
-        width: 296px;
-    }
-    .right,.left{
-        font-size: 15px;
-    }
-    .contact p{
+    .contact p,.right,.left{
         font-size: 17px;
     }
-    .location,.phone,.fax,.email {
-        width: 300px;
-    }
-    /*----------------------------------------ABOUT---320px-----------------------------*/
-    .about_dinner {
-        width: 300px;
-        height: 300px;
-    }
-    /*------------------------------------------BLOG----320px---------------------------------*/
-    .blog_container {
-        max-width: 320px;
-    }
-    .blog_write_pictures,.blog_pictures{
-        width: 300px;
-        height: 150px;
-        margin: auto;
-    }
 /*---------------------------------------------CONTACT---320px-------------------------------------*/
-    .contact_mid_left_top h6{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .contact_mid_left_bottom p {
-        font-size: 20px;
-        line-height: 20px;
-    }
+
     .contact_tel {
         font-size: 20px;
     }
@@ -638,11 +431,5 @@
         border: solid 1px #000;
         padding: 20px 40px;
         font-size: 20px;
-    }
-    .contact_mid_left_top,.contact_mid_right_top,.contact_mid_left_bottom,.contact_mid_right_bottom {
-        height: 220px;
-    }
-    .contact_tel:before {
-        margin-bottom: 30px;
     }
 }
