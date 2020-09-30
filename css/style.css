@@ -34,6 +34,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 header nav {
     display: flex;
@@ -95,6 +96,126 @@ header h4{
     line-height: 32px;
     margin-bottom: 51px;
 }
+/*----------------------------------------------DIALOG-----------------------------*/
+.ui-dialog{
+    padding: 0;
+}
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable{
+    top: 50px!important;
+}
+.ui-dialog .ui-dialog-title{
+    width: 100%;
+}
+.ui-widget-content{
+    margin: auto;
+    text-align: center!important;
+}
+.ui-corner-all{
+    border-radius: 0;
+}
+.ui-widget-header {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.ui-button.ui-dialog-titlebar-close {
+    display: none;
+}
+.ui-widget.ui-widget-content,#dialog{
+    border: 1px solid transparent;
+    border-radius: 0 0 10px 10px;
+}
+
+.ui-dialog .ui-dialog-titlebar{
+    padding: 40px 0 40px 0!important;
+}
+.ui-dialog {
+    max-width: 750px;
+    width: 100%!important;
+}
+#dialog.ui-dialog-content.ui-widget-content{
+    background-color: #fbfbfb;
+}
+.text{
+    padding: 39px 0 39px;
+    width: 100%;
+    max-width: 580px;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.enter{
+    font-size: 22px;
+    color: #363636;
+    width: 170px;
+    display: block;
+    font-weight: 500;
+    padding-left: 0;
+    position: relative;
+    left: -15px;
+}
+.button .press{
+    font-size: 24px;
+    color: #000!important;
+    font-weight: 700;
+    background-color: #bababa;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.fab{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 16px;
+
+}
+.form_main{
+    max-width: 530px;
+    width: 100%;
+    margin: auto;
+}
+.button{
+    width: 100%;
+}
+.form_link_a{
+    font-size: 24px;
+    color: #fff!important;
+    padding: 20px 0;
+    font-weight: 700;
+    background-color: #4966a5;
+    margin-bottom: 166px;
+    margin-top: 30px;
+    width: 100%;
+    display: block;
+}
+.button span{
+    font-size: 22px;
+    color: #363636;
+    font-weight: 500;
+}
+.text input{
+    height: 60px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    background-color: #fff;
+    max-width: 385px;
+    width: 100%;
+}
+
+
+
+
+
+/*----------------------------------------------DIALOG------------------------------*/
 .who_we_are a{
     border: 1px solid #000;
     color: #676d73;
@@ -650,17 +771,20 @@ aside ul{
     margin: 5px;
 }
 .owl-dots{
-    position: absolute;
-    right: 320px;
-    bottom: 50px;
+    position: relative;
+    bottom: 70px;
+}
+.owl-carousel{
+    text-align: center;
 }
 .owl-dot.active span{
     padding: 6px;
     margin: 6px;
     background-color: #000;
     opacity: 50%;
+    position: relative;
+    top: 2px;
 }
-
 
 
 

@@ -6,13 +6,33 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elegant</title>
-    <link rel="stylesheet" href="css/style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <form method="post" action="#">
+        <div class="text">
+            <label class="enter">ENTER YOUR EMAIL</label>
+            <input type="text">
+        </div>
+        <div class="form_main">
+            <div class="button">
+                <button type="reset" class="press">RESET PASSWORD</button>
+            </div>
+            <span>OR</span>
+            <div class="form_link">
+                <a class="form_link_a" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i>Log In Using Facebook</a>
+            </div>
+        </div>
+    </form>
+</div>
 <div class="bg">
     <header>
         <div class="header_div">
@@ -38,7 +58,8 @@
             etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
             gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta
             decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
-        <a href="about.html" target="_blank">Read More About Us</a>
+
+        <a id="opener" href="#">FORGOT YOUR PASSWORD?</a>
     </div>
 </section>
 <section class="what_we_do">
@@ -169,6 +190,10 @@
     </div>
     <div class="clear"></div>
 </footer>
-</body>
 <script src="https://kit.fontawesome.com/87b717149f.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
