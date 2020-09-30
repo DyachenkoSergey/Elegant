@@ -144,6 +144,9 @@ header h4{
     max-width: 580px;
 
 }
+.text input{
+    outline: none;
+}
 .text{
     display: flex;
     justify-content: space-between;
