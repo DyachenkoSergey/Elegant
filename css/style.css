@@ -44,7 +44,7 @@ header nav {
     width: 18px;
     height: 12px;
 }
-.btn{
+.menu span{
     background-color: transparent;
     border: none;
     color: #fff;
@@ -89,10 +89,6 @@ header h4{
 #main{
     transition: margin-left .5s;
     padding: 20px;
-}
-@media screen and (max-height: 450px) {
-    .sidenav{padding-top: 15px}
-    .sidenav a{font-size: 18px}
 }
 .bg h1{
     font-family: 'Open Sans', sans-serif;
