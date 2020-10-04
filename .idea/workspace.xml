@@ -25,12 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c05473b-04f3-48f3-aec4-67ecb7772f26" name="Default Changelist" comment="+navbar">
+    <list default="true" id="3c05473b-04f3-48f3-aec4-67ecb7772f26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +144,7 @@
       <workItem from="1601718170747" duration="19000" />
       <workItem from="1601720570892" duration="7203000" />
       <workItem from="1601729065431" duration="21000" />
-      <workItem from="1601796700418" duration="4560000" />
+      <workItem from="1601796700418" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="beginning project.Header.">
       <created>1599552560013</created>
@@ -366,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601631852892</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="+navbar">
+      <created>1601801282302</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601801282303</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,22 +415,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="+navbar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="0" key="CommitChangelistDialog2" timestamp="1601728552642">
+    <state x="439" y="0" key="CommitChangelistDialog2" timestamp="1601801279754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601728552642" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601310114626">
+    <state x="439" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601801279754" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601801606377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601310114626" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601801606377" />
     <state x="229" y="78" key="SettingsEditor" timestamp="1601720974015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="229" y="78" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601720974015" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601631856534">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601801287867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601631856534" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601801287867" />
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1601718174385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
