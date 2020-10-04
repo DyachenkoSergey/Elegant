@@ -56,17 +56,19 @@ header h4{
     color: #fff;
 }
 /*-----------------sidenav-------------*/
+
 .sidenav{
     height: 50%;
     width: 0;
     position: fixed;
-    z-index: 1;
-    top: 0;
+    z-index: 5;
+    top: 75px;
     right: 0;
-    background-color: #111;
+    background-color: #fff;
+    opacity: 90%;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0;
+    transition: 1s;
 }
 .sidenav a{
     padding: 8px 8px 8px 32px;
@@ -90,6 +92,7 @@ header h4{
     transition: margin-left .5s;
     padding: 20px;
 }
+/*----------------------------------------------------end sidebar--------------------------------------------*/
 .bg h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 80px;

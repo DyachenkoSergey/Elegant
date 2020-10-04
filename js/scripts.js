@@ -1,3 +1,37 @@
+
+
+
+
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+
+$( function() {
+    $( "#dialog" ).dialog({
+        autoOpen: false,
+        show: {
+            effect: "blind",
+            duration: 1000
+        },
+        hide: {
+            effect: "explode",
+            duration: 1000
+        }
+    });
+
+    $( "#opener" ).on( "click", function() {
+        $( "#dialog" ).dialog( "open" );
+    });
+} );
+
+
 $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
@@ -17,27 +51,6 @@ $(document).ready(function(){
         }
     });
 });
-$( function() {
-    $( "#dialog" ).dialog({
-        autoOpen: false,
-        show: {
-            effect: "blind",
-            duration: 1000
-        },
-        hide: {
-            effect: "explode",
-            duration: 1000
-        }
-    });
 
-    $( "#opener" ).on( "click", function() {
-        $( "#dialog" ).dialog( "open" );
-    });
-} );
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
+
