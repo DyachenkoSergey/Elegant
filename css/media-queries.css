@@ -17,7 +17,7 @@
     }
     header{
         background-color: #2d3233;
-        opacity: 50%;
+        opacity: 0.5;
     }
     .logo_header{
         max-width: 370px;
@@ -40,7 +40,7 @@
     .sidenav a{font-size: 18px}
     /*----------------------------------------------------------------------------------------*/
     .main{
-        padding: 15px;
+        padding: 0;
     }
     .main_h3 {
         font-size: 40px;
@@ -93,7 +93,7 @@
         margin-bottom: 40px;
     }
     .time\+p{
-        padding: 15px;
+        padding: 15px 0;
         display: block;
         height: 100%;
 
@@ -109,6 +109,9 @@
     }
     .time\+p a,.more {
         padding: 10px 15px;
+    }
+    .maps\+contact{
+        padding: 15px;
     }
     .maps\+contact img,.a_contact,.contact h5,.contact_us{
         margin-bottom: 30px;
@@ -141,6 +144,7 @@
     }
     .photo_about h6{
         font-size: 50px;
+        margin: 50px 15px 50px 42px;
     }
     .about_section p,.photo_about p,.photo_about li{
         font-size: 15px;
@@ -157,8 +161,11 @@
         height: 0;
         }
 
-    .blog_main,.blog_write,.blog_container{
+    .blog_container{
         padding: 15px;
+    }
+    .blog_main,.blog_write{
+        padding: 0;
     }
     .blog_container,.blog_write_pictures,.blog_pictures{
         width: 100%;
@@ -221,6 +228,9 @@
         height: 10%;
         width: 100%;
         float: none;
+    }
+    .project_main{
+        padding: 15px;
     }
     .contact_mid_left_bottom{
         padding: 78px 133px;
@@ -289,6 +299,7 @@
     }
     .work_container {
         width: 100%;
+        padding: 15px;
     }
     .work_h3{
         font-size: 90px;
@@ -314,7 +325,7 @@
 @media only screen and (max-width: 420px) {
     /*---------------------------------------INDEX------420px---------------------------------*/
     .header_div {
-        max-width: 250px;
+        max-width: 200px;
     }
     /*-----------------------------------------------BLOG-------420px----------------------*/
     .blog_main,.blog_write a {
